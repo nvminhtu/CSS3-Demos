@@ -1,0 +1,93 @@
+Saw Tooth Border use CSS3
+
+use Image base 64 
+
+ {
+  width: 400px;
+  height: 300px;
+  border: 8px solid #31b55b;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAYAAABxcwvcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNrs2MtNxDAQBuD82wCtQAfcKWEvUBlcKIH7drC0sh2QSOHAksSveXnGv2RZ9vHTyB57mgzl6ev8sIzJWGAJaJ4u6/L5+vJ5G0jbQI/r1rclKBgEmqxBwSiQKSgYBjIDBeNAJqDQAZA6FDoBUoVCR0BqUOgMSAUKHQKJQ6FTIFEodAwkBoXOgUSg4ACIHQpOgFih4AiIDQrOgFig4BCIHApOgUih4BiIDArOgUigEACoGQpBgJqgEAioGgrBgKqgEBCoGApBgYqgEBgoGwrBgbKgMIDSUBhAaSgMoDQUBlAaCgMoDXUaQLtZTC5LEZ1WsZGdaloq6fdMep+n12HyJx8z0Nv97TagNoC2+qQBdQe013FHhvoHdPR2iwi1CZT6BYgEtQt0iBQI6hAoiRQAKgmUheQYKgsoG8khVDZQEZIjqCKgYiQHUMVAVUgdQ1UBVSN1CFUN1ITUEVQTUDNSB1DNQCRIhqFIgMiQDEKRAZEiGYIiBSJHMgBFDsSCpAjFAsSGpADFBsSKJAjFCsSOJADFDiSCxAglAiSGxAAlBiSKRAglCiSORAAlDqSC1AClAqSGVAGlBqSKVAClCqSOlAGlDmQC6QDKBJAZpA0oM0DmskCtWKbyI8AAeriJOZujgcgAAAAASUVORK5CYII=) repeat-x -15px -15px, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAYAAABxcwvcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNrs2MtNxDAQBuD82wCtQAfcKWEvUBlcKIH7drC0sh2QSOHAksSveXnGv2RZ9vHTyB57mgzl6ev8sIzJWGAJaJ4u6/L5+vJ5G0jbQI/r1rclKBgEmqxBwSiQKSgYBjIDBeNAJqDQAZA6FDoBUoVCR0BqUOgMSAUKHQKJQ6FTIFEodAwkBoXOgUSg4ACIHQpOgFih4AiIDQrOgFig4BCIHApOgUih4BiIDArOgUigEACoGQpBgJqgEAioGgrBgKqgEBCoGApBgYqgEBgoGwrBgbKgMIDSUBhAaSgMoDQUBlAaCgMoDXUaQLtZTC5LEZ1WsZGdaloq6fdMep+n12HyJx8z0Nv97TagNoC2+qQBdQe013FHhvoHdPR2iwi1CZT6BYgEtQt0iBQI6hAoiRQAKgmUheQYKgsoG8khVDZQEZIjqCKgYiQHUMVAVUgdQ1UBVSN1CFUN1ITUEVQTUDNSB1DNQCRIhqFIgMiQDEKRAZEiGYIiBSJHMgBFDsSCpAjFAsSGpADFBsSKJAjFCsSOJADFDiSCxAglAiSGxAAlBiSKRAglCiSORAAlDqSC1AClAqSGVAGlBqSKVAClCqSOlAGlDmQC6QDKBJAZpA0oM0DmskCtWKbyI8AAeriJOZujgcgAAAAASUVORK5CYII=) repeat-x -15px 285px, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAYAAABxcwvcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNrs2MtNxDAQBuD82wCtQAfcKWEvUBlcKIH7drC0sh2QSOHAksSveXnGv2RZ9vHTyB57mgzl6ev8sIzJWGAJaJ4u6/L5+vJ5G0jbQI/r1rclKBgEmqxBwSiQKSgYBjIDBeNAJqDQAZA6FDoBUoVCR0BqUOgMSAUKHQKJQ6FTIFEodAwkBoXOgUSg4ACIHQpOgFih4AiIDQrOgFig4BCIHApOgUih4BiIDArOgUigEACoGQpBgJqgEAioGgrBgKqgEBCoGApBgYqgEBgoGwrBgbKgMIDSUBhAaSgMoDQUBlAaCgMoDXUaQLtZTC5LEZ1WsZGdaloq6fdMep+n12HyJx8z0Nv97TagNoC2+qQBdQe013FHhvoHdPR2iwi1CZT6BYgEtQt0iBQI6hAoiRQAKgmUheQYKgsoG8khVDZQEZIjqCKgYiQHUMVAVUgdQ1UBVSN1CFUN1ITUEVQTUDNSB1DNQCRIhqFIgMiQDEKRAZEiGYIiBSJHMgBFDsSCpAjFAsSGpADFBsSKJAjFCsSOJADFDiSCxAglAiSGxAAlBiSKRAglCiSORAAlDqSC1AClAqSGVAGlBqSKVAClCqSOlAGlDmQC6QDKBJAZpA0oM0DmskCtWKbyI8AAeriJOZujgcgAAAAASUVORK5CYII=) repeat-y 385px -15px, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAYAAABxcwvcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNrs2MtNxDAQBuD82wCtQAfcKWEvUBlcKIH7drC0sh2QSOHAksSveXnGv2RZ9vHTyB57mgzl6ev8sIzJWGAJaJ4u6/L5+vJ5G0jbQI/r1rclKBgEmqxBwSiQKSgYBjIDBeNAJqDQAZA6FDoBUoVCR0BqUOgMSAUKHQKJQ6FTIFEodAwkBoXOgUSg4ACIHQpOgFih4AiIDQrOgFig4BCIHApOgUih4BiIDArOgUigEACoGQpBgJqgEAioGgrBgKqgEBCoGApBgYqgEBgoGwrBgbKgMIDSUBhAaSgMoDQUBlAaCgMoDXUaQLtZTC5LEZ1WsZGdaloq6fdMep+n12HyJx8z0Nv97TagNoC2+qQBdQe013FHhvoHdPR2iwi1CZT6BYgEtQt0iBQI6hAoiRQAKgmUheQYKgsoG8khVDZQEZIjqCKgYiQHUMVAVUgdQ1UBVSN1CFUN1ITUEVQTUDNSB1DNQCRIhqFIgMiQDEKRAZEiGYIiBSJHMgBFDsSCpAjFAsSGpADFBsSKJAjFCsSOJADFDiSCxAglAiSGxAAlBiSKRAglCiSORAAlDqSC1AClAqSGVAGlBqSKVAClCqSOlAGlDmQC6QDKBJAZpA0oM0DmskCtWKbyI8AAeriJOZujgcgAAAAASUVORK5CYII=) repeat-y -15px -15px, url(http://placekitten.com/g/400/300) no-repeat;
+  background-size: 31px 31px, 31px 31px, 30px 30px, 30px 30px, 100% 100%;
+ }
+ 
+ Use Linear-gradients
+body { margin: 2em; }
+div { height: 150px; margin-bottom: 15px; }
+
+@mixin saw-tooth-vertical($width: 12px, $bg: #fff) {
+  background-image:
+    /* Top jagged */
+    linear-gradient(135deg, $bg 50%, transparent 50%),
+    linear-gradient(225deg, $bg 50%, transparent 50%),
+    /* Bottom jagged */
+    linear-gradient(45deg, $bg 50%, transparent 50%),
+    linear-gradient(-45deg, $bg 50%, transparent 50%);
+  background-position:
+    /* Top jagged */
+    top left, top left,
+    /* Bottom jagged */
+    bottom left, bottom left;
+  background-size: $width $width;
+  background-repeat: repeat-x;
+}
+@mixin saw-tooth-horizontal($width: 12px, $bg: #fff) {
+  background-image:
+    /* Left jagged */
+    linear-gradient(135deg, $bg 50%, transparent 50%),
+    linear-gradient(45deg, $bg 50%, transparent 50%),
+    /* Right jagged */
+    linear-gradient(-135deg, $bg 50%, transparent 50%),
+    linear-gradient(-45deg, $bg 50%, transparent 50%);
+  background-position:
+    /* Left jagged */
+    top left, top left,
+    /* Right jagged */
+    top right, top right;
+  background-size: $width $width;
+  background-repeat: repeat-y;
+}
+.banner-vertical {
+  background-color: yellowgreen;
+  @include saw-tooth-vertical();
+}
+
+.banner-horizontal {
+  background-color: crimson;
+  @include saw-tooth-horizontal();
+}
+
+
+@mixin saw-tooth($width: 12px, $bg: #fff) {
+  background-image:
+    /* Top jagged */
+    linear-gradient(135deg, $bg 50%, transparent 50%),
+    linear-gradient(225deg, $bg 50%, transparent 50%),
+    /* Bottom jagged */
+    linear-gradient(45deg, $bg 50%, transparent 50%),
+    linear-gradient(-45deg, $bg 50%, transparent 50%),
+    /* Left jagged */
+    linear-gradient(135deg, $bg 50%, transparent 50%),
+    linear-gradient(45deg, $bg 50%, transparent 50%),
+    /* Right jagged */
+    linear-gradient(-135deg, $bg 50%, transparent 50%),
+    linear-gradient(-45deg, $bg 50%, transparent 50%);
+  background-position:
+    /* Top jagged */
+    top left, top left,
+    /* Bottom jagged */
+    bottom left, bottom left,
+    /* Left jagged */
+    top left, top left,
+    /* Right jagged */
+    top right, top right;
+  background-size: $width $width;
+  background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, repeat-y, repeat-y, repeat-y, repeat-y;
+}
+
+.banner {
+  background-color: skyblue;
+  @include saw-tooth();
+}
+
+ 
+ https://codepen.io/yangg/pen/mJBWPG
