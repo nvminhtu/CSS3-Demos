@@ -1,0 +1,8 @@
+/*Background with Opacity */
+background: rgba(0, 0, 0, 0.5); /* Black color with 50% alpha/opacity */
+background: rgba(white, 0.5);
+
+/*Box Shadow with Opacity */
+box-shadow: 
+    inset 0 8px 0 0 rgba(255, 255, 255, 0.5), 
+    inset 0 -8px 0 0 rgba(255, 255, 255, 0.5); /* top and bottom borders */
